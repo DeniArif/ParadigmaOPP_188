@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ParadigmaOPP_188", "Paradig
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mainA", "mainA\mainA.vcxproj", "{6EA02950-2DB8-470E-B42F-27C0742E3C8C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mainJM", "mainJM\mainJM.vcxproj", "{DB8F17CC-8A6B-4851-B439-8D9ADBEBA9CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{6EA02950-2DB8-470E-B42F-27C0742E3C8C}.Release|x64.Build.0 = Release|x64
 		{6EA02950-2DB8-470E-B42F-27C0742E3C8C}.Release|x86.ActiveCfg = Release|Win32
 		{6EA02950-2DB8-470E-B42F-27C0742E3C8C}.Release|x86.Build.0 = Release|Win32
+		{DB8F17CC-8A6B-4851-B439-8D9ADBEBA9CE}.Debug|x64.ActiveCfg = Debug|x64
+		{DB8F17CC-8A6B-4851-B439-8D9ADBEBA9CE}.Debug|x64.Build.0 = Debug|x64
+		{DB8F17CC-8A6B-4851-B439-8D9ADBEBA9CE}.Debug|x86.ActiveCfg = Debug|Win32
+		{DB8F17CC-8A6B-4851-B439-8D9ADBEBA9CE}.Debug|x86.Build.0 = Debug|Win32
+		{DB8F17CC-8A6B-4851-B439-8D9ADBEBA9CE}.Release|x64.ActiveCfg = Release|x64
+		{DB8F17CC-8A6B-4851-B439-8D9ADBEBA9CE}.Release|x64.Build.0 = Release|x64
+		{DB8F17CC-8A6B-4851-B439-8D9ADBEBA9CE}.Release|x86.ActiveCfg = Release|Win32
+		{DB8F17CC-8A6B-4851-B439-8D9ADBEBA9CE}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
