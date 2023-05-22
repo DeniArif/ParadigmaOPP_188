@@ -1,10 +1,14 @@
 #pragma once
 #ifndef IBU_H
 #define IBU_H
+#include <iostream>;
+#include "anak.h"
+#include <vector>
+using namespace std;
 
 class ibu {
 	string nama;
-	vactor<anak*> daftar_anak;
+	vector<anak*> daftar_anak;
 
 	ibu(string pNama) :nama(pNama) {
 		cout << "Ibu \"" << nama << "\" ada\n";
@@ -12,6 +16,15 @@ class ibu {
 	~ibu() {
 		cout << "ibu \"" << nama << "\" tidak ada\n";
 	}
-
+	void tambahAnak(anak*);
+	void cetakanak();
 };
-void ibu
+void ibu::tambahAnak(anak* pAnak) {
+	daftar_anak.push_back(pAnak);
+}
+void ibu::cetakanak();
+	cout << "Daftar anak dari Ibu \"" << this->nama << "\":\n";
+	for (auto& a : daftar_anak) {
+		cout << a->nama <<
+	}
+}
