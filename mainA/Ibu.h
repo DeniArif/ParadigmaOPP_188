@@ -17,14 +17,16 @@ class ibu {
 		cout << "ibu \"" << nama << "\" tidak ada\n";
 	}
 	void tambahAnak(anak*);
-	void cetakanak();
+	void cetakAnak();
 };
 void ibu::tambahAnak(anak* pAnak) {
 	daftar_anak.push_back(pAnak);
 }
-void ibu::cetakanak();
+void ibu::cetakAnak() {
 	cout << "Daftar anak dari Ibu \"" << this->nama << "\":\n";
 	for (auto& a : daftar_anak) {
-		cout << a->nama <<
+		cout << a->nama << "\n";
 	}
+	cout << endl;
 }
+#endif//!IBU_H 
