@@ -13,7 +13,7 @@ public:
 		cout << name << "hidup\n";
 	}
 	~manusia() {
-		cout << mame << "mati\n";
+		cout << name << "mati\n";
 	}
 };
 #endif
