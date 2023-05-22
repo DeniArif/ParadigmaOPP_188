@@ -6,12 +6,11 @@ using namespace std;
 
 class jantung {
 public:
-	string name;
-	jantung varJantung;
-
-	manusia(string pName)
-		: name(pName) {
-		cout << name << " hidup\n";
+	jantung() {
+		cout << "jantung dihidupkan\n";
+	}
+	~jantung() {
+		cout << "jantung dimatikan\n";
 	}
 };
 #endif
